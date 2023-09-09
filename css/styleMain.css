@@ -135,6 +135,10 @@ html {
     font-size: 20px;
 }
 
+.buttons button:hover{
+    background-color: red;
+}
+
 .btn-sm {
     padding: 5px 10px;
     vertical-align: middle;
