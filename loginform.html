@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Registration or Sign Up form in HTML CSS | CodingLab </title> 
-    <link rel="stylesheet" href="css/stylelogin.css">
-   </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Registration or Sign Up form in HTML CSS | CodingLab </title>
+  <link rel="stylesheet" href="css/stylelogin.css">
+  <link rel="stylesheet" href="css/styleMain.css">
+</head>
+
 <body>
-  <div class="wrapper">
+  <nav class="navbar h-nav-resp">
+    <ul class="nav-list v-class-resp">
+      <div class="logo"><img src="img/newlogo.png" alt="logo"></div>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#footer">Contact Us</a></li>
+      <li><a href="#suggestions">Suggestions</a></li>
+      <li><a href="loginform.html">Sign Up</a></li>
+      <!-- href's will link the different wanted sections of website to the about,services,contact buttons -->
+    </ul>
+    <!-- <div class="rightNav v-class-resp">
+        <input type="text" name="search" id="search">
+        <button class="btn btn-sm">Search</button>
+    </div> -->
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <div class="wrapper section" >
+    <div class="paras">
     <h2>Registration</h2>
+  </div>
     <form action="#">
       <div class="input-box">
         <input type="text" placeholder="Enter your name" required>
@@ -35,5 +61,18 @@
       </div>
     </form>
   </div>
+
+  <footer class="" id="footer">
+    <p class="text-footer">
+        Contact Us On: 9854398780, 2454338769
+        <br>
+        <br>
+        Email Id: support-in@Totalfitness.com
+        <br>
+        <br>
+        Copyright &copy; 2023 - All rights reserved
+    </p>
+</footer>
 </body>
+
 </html>

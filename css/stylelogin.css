@@ -5,15 +5,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+.wrapper{
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #4070f4;
 }
+
 .wrapper{
-  position: relative;
+  position: static;
   max-width: 430px;
   width: 100%;
   background: #fff;
@@ -93,6 +94,6 @@ form .text h3 a{
 form .text h3 a:hover{
   text-decoration: underline;
 }
-If you face any difficulties while creating your HTML Signup Form or your code is not working as expected, you can download the source code files for this HTML Registration Form for free by clicking on the download button, and you can also view a live demo of this card slider by clicking on the view live button.
+
 
 
