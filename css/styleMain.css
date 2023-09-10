@@ -60,7 +60,7 @@ html {
 }
 
 .nav-list li a:hover {
-    color: rgb(197, 194, 194);
+    color:  #32dc18;
 }
 
 .rightNav {
@@ -136,7 +136,7 @@ html {
 }
 
 .buttons button:hover{
-    background-color: red;
+    background-color: #32dc18
 }
 
 .btn-sm {
